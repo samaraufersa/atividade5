@@ -6,7 +6,7 @@ st.title('VACINAÇÃO - Um Painel de Informações sobre a Vacinação contra CO
 
 st.set_page_config(page_title = 'DASHVACINA', layout = 'wide')
 
-df = pd.read_csv('/content/vacinacao_corrigido.csv')
+df = pd.read_csv('vacinacao_corrigido.csv')
 
 df['date'] = pd.to_datetime(df['date'])
 
